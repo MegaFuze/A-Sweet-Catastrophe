@@ -1,0 +1,139 @@
+{
+     "FloorTiles":{
+          "path": "GameFiles/Assets/TopDown/Floors/FloorTiles.png",
+          "size": {
+               "w": 100,
+               "h": 100
+          },
+          "offset": {
+               "x": 0,
+               "y": -40
+          },
+          "z_layer": "bottom_floor",
+          "collidable": false,
+          "special": null,
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": true
+     },
+     "Walls":{
+          "path": "GameFiles/Assets/TopDown/Obstacles/Walls.png",
+          "size": {
+               "w": 100,
+               "h": 140
+          },
+          "offset": {
+               "x": 0,
+               "y": -40
+          },
+          "z_layer": "main",
+          "collidable": true,
+          "special": null,
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": true
+     },
+     "Pushable":{
+          "path": "GameFiles/Assets/TopDown/Obstacles/Pushable.png",
+          "size": {
+               "w": 100,
+               "h": 140
+          },
+          "offset": {
+               "x": 0,
+               "y": -40
+          },
+          "z_layer": "main",
+          "collidable": true,
+          "special": "pushable",
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": true
+     },
+     "Trigger":{
+          "path": "GameFiles/Assets/TopDown/Effects/Trigger.png",
+          "size": {
+               "w": 100,
+               "h": 100
+          },
+          "offset": {
+               "x": 0,
+               "y": -40
+          },
+          "z_layer": "main",
+          "collidable": false,
+          "special": "pushable",
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": true
+     },
+
+
+
+     "Player":{
+          "path": "GameFiles/Assets/TopDown/Player/Player.png",
+          "size": {
+               "w": 100,
+               "h": 100
+          },
+          "offset": {
+               "x": 0,
+               "y": 0
+          },
+          "z_layer": "main",
+          "collidable": false,
+          "special": null,
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": false
+     },
+     "Buster":{
+          "path": "GameFiles/Assets/TopDown/Player/Buster.png",
+          "size": {
+               "w": 68,
+               "h": 48
+          },
+          "offset": {
+               "x": 0,
+               "y": 0
+          },
+          "z_layer": "main",
+          "collidable": false,
+          "special": null,
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": true
+     },
+     "BOSS":{
+          "path": "GameFiles/Assets/TopDown/Enemies/BOSS.png",
+          "size": {
+               "w": 200,
+               "h": 200
+          },
+          "offset": {
+               "x": 0,
+               "y": 0
+          },
+          "z_layer": "main",
+          "collidable": false,
+          "special": null,
+          "hitbox_inflation": {
+               "x": 0,
+               "y": 0
+          },
+          "save_sprites": false
+     }
+
+}
